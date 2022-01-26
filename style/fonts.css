@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "PoppinsBlackItalic";
+    src: local(Poppins), url(../assets/Fonts/Poppins-BlackItalic.ttf);
+}
+
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: local(Poppins), url(../assets/Fonts/Poppins-Bold.ttf);
+}
