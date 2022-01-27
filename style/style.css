@@ -9,6 +9,7 @@ body{
     padding: 0%;
     top:0%;
     margin: 0%;
+    font-family: "PoppinsMedium";
 }
 
 h1 {
@@ -41,7 +42,6 @@ h1 {
     height: 90px;
     left: 193px;
     top: 554px;
-    font-family: "Poppins";
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
@@ -53,9 +53,6 @@ h1 {
     flex-direction: row;
 }
 
-.topo-nav ul{
-    font-family: "PoppinsBold", Arial, sans-serif;
-}
 
 .topo-nav ul li {
     display:inline-block;
@@ -65,7 +62,6 @@ h1 {
 
 .topo-nav ul li a{
     color: #6B67AA;
-    font-family: "Poppins", Arial, sans-serif;
     font-size: 30px;
     line-height: 45px;
     text-decoration: none; 
@@ -76,8 +72,8 @@ h1 {
     height: 92px;
     left: 147px;
     top: 797px;
+    font-family: "PoppinsBold";
     background-color: #9D9CF1;
-    font-family: "PoppinsBold", Arial, sans-serif;
     font-size: 35px;
     display: flex;
     align-items: center;
@@ -92,69 +88,100 @@ h1 {
     background-color: #ADDADB;
     height: 943px;
     left: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .experiencia h2{
     color: #211C70;
-    font-family: "Poppins";
-    margin-left: 118px;
     margin-top: 73px;
     font-size: 70px;
     line-height: 105px;
+    margin-left: 123px;
+    /* border: 2px solid black; */
 }
 
-
-.container{
+.container-cards{
     display:flex;
     flex-direction: row;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
-.container div { 
+.container-cards div { 
     background: #8F8EDB;
 }
 
-.container div p {
+.container-cards div p {
     color: #E5E5E5;
-    font-size: 25px;
-    position: relative;
-    text-align: center;
+    font-size: 30px;
+    line-height: 37.5px;
+    text-align: justify;
 }
 
-.container div:nth-child(1){
+.container-cards div:nth-child(1){
     width: 456px;
     height: 539px;
     margin-left: 123px;
-    border: 2px solid black;
 }
 
-.container div:nth-child(1) img{
-    margin-top: 50px;
-    /* position:absolute; */
+.container-cards div:nth-child(1) img{
+    margin-top: 44px;
     margin-left: 49px;
+    margin-right: 64px;
+    /* border: 2px solid black; */
 }
 
-.container div:nth-child(2){
-    /* position: absolute; */
+.container-cards div:nth-child(1) p{
+    width: 317px;
+    height: 102px;
+    margin-left: 40px;
+    margin-top: 0px;
+    /* border: 2px solid black; */
+}
+
+
+.container-cards div:nth-child(2){
+    position: absolute;
     width: 456px;
     height: 539px;
-    margin-left: 79px; 
+    margin-left: 492px;
+    margin-top: 79px; 
     background-color: #8080DD;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
-.container div:nth-child(2) img{
+.container-cards div:nth-child(2) img{
     margin-left: 65px;
+    /* border: 2px solid black; */
+}
+.container-cards div:nth-child(2) p{
+    width: 378px;
+    /* width: 310px; */
+    height: 114px;
+    margin-left: 55px;
+    margin-top: 45px;
+    /* border: 2px solid black; */
 }
 
-.container div:nth-child(3) img{
-    margin-left: 73.6px;
-}
 
-.container div:nth-child(3){
+.container-cards div:nth-child(3){
     width: 456px;
     height: 539px;
-    margin-left: 123px;
-    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 123px;
+    /* border: 2px solid black; */
+}
+
+.container-cards div:nth-child(3) img{
+    padding-left: 83.6px;
+}
+
+.container-cards div:nth-child(3) p{
+    margin-left: 111px;
+    width: 339px;
+    /* width: 320px; */
+    height: 76px;
+    /* border: 2px solid black; */
 }
 
 
@@ -162,8 +189,75 @@ h1 {
 
 .funcionalidades{
     background: linear-gradient(0deg, #B3ABFC 0%, rgba(255, 255, 255, 0) 100%);
-    height: 993.46px;
-    left: 1440.02px;
-    top: 2876.39px;
+    height: 100%;
+}
 
+.funcionalidades h2 {
+    width: 593px;
+    height: 105px;
+    line-height: 105px;
+    margin-left: 10%;
+    margin-right: 102px;
+    font-size: 70px;
+    color:rgba(107, 103, 170, 1);
+}
+
+.funcionalidades .container-p-func{
+    float:right;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin-right: 25%;
+    font-family: "PoppinsMedium";
+}
+
+.funcionalidades .container-p-func p {
+    float:right;
+    color:rgba(107, 103, 170, 1);
+    font-size: 35px;
+    text-align: justify;
+    /* border: 2px solid black; */
+}
+
+.funcionalidades .container-p-func div {
+    background-color:rgba(166, 144, 252, 0.45);
+    border-radius: 50px;
+    width: 625px;
+    height: 151px;
+}
+
+.funcionalidades .container-p-func1 {
+    margin-top: 8%;
+    padding: 1%;
+}
+
+.funcionalidades .container-p-func2 {
+    margin-top: 10%;
+    margin-left: 10%;   
+}
+
+.funcionalidades .container-p-func3 {
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+
+
+.container-imagens-func {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-imagens-func1 {
+    width: 50%;
+    margin-top: 204px;
+    margin-left: 10%;
+}
+
+.container-imagens-func2 {
+    width: 50%;
+    position: absolute;
+    /* margin-left: 225px; */
+    margin-left: 15%;
+    margin-top: 51px;
 }
