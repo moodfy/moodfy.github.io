@@ -3,13 +3,15 @@
 html {
     height: 100%;
     min-height: 100%;
+    scroll-behavior: smooth;
 }
 
 body{
     padding: 0%;
-    top:0%;
+    margin-top:0%;
     margin: 0%;
     font-family: "PoppinsMedium";
+    background-color: #B6AFFC;
 }
 
 h1 {
@@ -20,71 +22,97 @@ h1 {
 
 /* -------------------------- Topo -------------------------- */
 
-.topo{
-    background: linear-gradient(180deg, #E3E0FF 0%, rgba(255, 255, 255, 0) 100%);
+#topo{
+    background: linear-gradient(180deg,#B3ABFC 0%, 1%, #E3E0FF 60%, #fec4ba 100%);
     width: 100%;
     left: 0px;
     top: 0px;
+    /* background-color: linear-gradient(0deg, #B3ABFC 0%, rgba(255, 255, 255, 0) 100%); */
 }
 
-.topo h2{
+#topo img {
+    float:right;
+    margin-right: 25%;
+    margin-top: 59px;
+}
+
+.topo-img-bola-esq{
+    float: left;
+    margin-left: 64px;
+    margin-top: 644px;
+    position: absolute;
+}
+
+#topo h2{
     width: 488px;
     height: 177px;
-    left: 177px;
-    top: 316px;
+    margin-left: 177px;
+    margin-top: 316px;
     font-size: 70px;
     line-height: 105px;
     color: #211C70;
 }
 
-.topo p{
+#topo p{
     width: 408px;
-    height: 90px;
-    left: 193px;
-    top: 554px;
+    /* width: 430px; */
+    /* width: 490px; */
+    /* width: 450px;
+    height: 100px; */
+    margin-left: 193px;
+    margin-top: 61px;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+    text-align: justify;
     color: #211C70;
 }
 
 .topo-nav{
     display: flex;
     flex-direction: row;
+    width: 50%;
+    padding-top: 75px;
+    margin-left: 95px;
+    margin-right: 2%;
+    color:rgba(107, 103, 170, 1);
 }
 
 
 .topo-nav ul li {
     display:inline-block;
     /* padding: 20px; */
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
 .topo-nav ul li a{
     color: #6B67AA;
     font-size: 30px;
     line-height: 45px;
-    text-decoration: none; 
+    text-decoration: none;  
 }
 
 #entrar {
     width: 416px;
     height: 92px;
-    left: 147px;
-    top: 797px;
-    font-family: "PoppinsBold";
+    margin-left: 147px;
+    margin-top: 153px;
+    margin-bottom: 50px;
+    font-weight: 700;
     background-color: #9D9CF1;
     font-size: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #FFFFFF;
+    border-color: transparent;
+}
+
+#entrar:hover {
+    border-color: blue;
 }
 
 
 /* -------------------------- Experiência -------------------------- */
 
-.experiencia {
+#experiencia {
     background-color: #ADDADB;
     height: 943px;
     left: 0px;
@@ -93,7 +121,7 @@ h1 {
     flex-direction: column;
 }
 
-.experiencia h2{
+#experiencia h2{
     color: #211C70;
     margin-top: 73px;
     font-size: 70px;
@@ -113,8 +141,8 @@ h1 {
 
 .container-cards div p {
     color: #E5E5E5;
-    font-size: 30px;
-    line-height: 37.5px;
+    font-size: 25px;
+    line-height: 37px;
     text-align: justify;
 }
 
@@ -155,10 +183,9 @@ h1 {
     /* border: 2px solid black; */
 }
 .container-cards div:nth-child(2) p{
-    width: 378px;
-    /* width: 310px; */
+    width: 380px;
     height: 114px;
-    margin-left: 55px;
+    margin-left: 40px;
     margin-top: 45px;
     /* border: 2px solid black; */
 }
@@ -169,7 +196,6 @@ h1 {
     height: 539px;
     margin-left: 300px;
     margin-right: 123px;
-    /* border: 2px solid black; */
 }
 
 .container-cards div:nth-child(3) img{
@@ -177,71 +203,69 @@ h1 {
 }
 
 .container-cards div:nth-child(3) p{
-    margin-left: 111px;
-    width: 339px;
-    /* width: 320px; */
-    height: 76px;
-    /* border: 2px solid black; */
+    margin-left: 90px;
+    width: 350px;
+    height: 80px;
+    text-align:justify;
 }
 
 
 /* -------------------------- Funcionalidades -------------------------- */
 
-.funcionalidades{
-    background: linear-gradient(0deg, #B3ABFC 0%, rgba(255, 255, 255, 0) 100%);
+#funcionalidades {
+    background: linear-gradient(white 0% 40%, #B3ABFC 100%);
     height: 100%;
+    width: 100%;
 }
 
-.funcionalidades h2 {
+#funcionalidades h2 {
     width: 593px;
     height: 105px;
+    font-weight: 600;
     line-height: 105px;
-    margin-left: 10%;
-    margin-right: 102px;
+    margin-left: 13%;
     font-size: 70px;
+    margin-top: 135px;
     color:rgba(107, 103, 170, 1);
 }
 
-.funcionalidades .container-p-func{
+#funcionalidades .container-p-func{
     float:right;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
-    margin-right: 25%;
-    font-family: "PoppinsMedium";
+    margin-right: 17%;
+    width: 45%;
 }
 
-.funcionalidades .container-p-func p {
+#funcionalidades .container-p-func p {
     float:right;
     color:rgba(107, 103, 170, 1);
     font-size: 35px;
     text-align: justify;
-    /* border: 2px solid black; */
 }
 
-.funcionalidades .container-p-func div {
+#funcionalidades .container-p-func div {
     background-color:rgba(166, 144, 252, 0.45);
     border-radius: 50px;
     width: 625px;
     height: 151px;
-}
-
-.funcionalidades .container-p-func1 {
-    margin-top: 8%;
     padding: 1%;
 }
 
-.funcionalidades .container-p-func2 {
-    margin-top: 10%;
+
+#funcionalidades .container-p-func2 {
+    margin-top: 5%;
     margin-left: 10%;   
 }
 
-.funcionalidades .container-p-func3 {
+#funcionalidades .container-p-func3 {
     margin-right: 15%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
-
+#funcionalidades .container-p-func3 p{
+    font-size: 30px;
+}
 
 .container-imagens-func {
     display: flex;
@@ -260,4 +284,41 @@ h1 {
     /* margin-left: 225px; */
     margin-left: 15%;
     margin-top: 51px;
+}
+
+
+/* -------------------------- Rodapé -------------------------- */
+.rodape {
+    width: 100%;
+    background-color: #B6AFFC;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 6%;
+    font-size: 20px;
+}
+
+.container-imagem-logo {
+    margin-right: 18%;
+    position:absolute;
+    margin-left: 71%;
+}
+
+
+.container-rodape-nav {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 27%;
+}
+
+.container-rodape-nav ul li {
+    display:inline-block;
+    margin-right: 30px;
+}
+
+
+.container-rodape-nav ul li a{
+    line-height: 45px;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 1);
 }
