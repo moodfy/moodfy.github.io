@@ -7,3 +7,8 @@
     font-family: "PoppinsMedium";
     src: local(Poppins), url(../assets/Fonts/Poppins-Regular.ttf);
 }
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(Poppins), url(../assets/Fonts/Poppins-Bold.ttf);
+}
