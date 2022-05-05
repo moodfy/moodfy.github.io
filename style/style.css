@@ -21,6 +21,9 @@ h1 {
 
 
 /* -------------------------- Topo -------------------------- */
+.img-shrek {
+    width: 10% !important;
+}
 
 #topo{
     background: linear-gradient(180deg,#B3ABFC 0%, 1%, #E3E0FF 60%, #fec4ba 100%);
@@ -52,7 +55,6 @@ h1 {
 .topo-nav{
     display: flex;
     flex-direction: row;
-    width: 50%;
     padding-top: 75px;
     margin-left: 13%;
     margin-bottom: 0%;
@@ -65,7 +67,7 @@ h1 {
     margin-right: 75px;
 }
 
-.topo-nav ul li a{
+.topo-nav ul li a {
     color: #6B67AA;
     font-size: 30px;
     line-height: 45px;
@@ -82,7 +84,16 @@ h1 {
     background-color: #9D9CF1;
     font-size: 35px;
     color: #FFFFFF;
-    border-color: transparent;
+    border-color: transparent;    
+}
+
+#entrar a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#entrar:visited {
+    color: #FFFFFF;
 }
 
 #entrar:hover {
